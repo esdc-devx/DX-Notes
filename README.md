@@ -22,9 +22,9 @@ Improving the Developer Experience at ESDC through building a culture of Continu
 
 ## Strategy [WIP]
 
-Use Dashboards to measure progress over time as well as to provide instant feedback to developers to allow continous learning opportunites.
+Use Dashboards to measure progress over time as well as to provide instant feedback to developers to allow continuous learning opportunites.
 
-Establish enterprise wide systems (ex: Secret Management, Dependency Managment, etc...) in colaberation with key teams (SADE, IT-Sec) that enables developers to increase the quality of their products without expending a great deal of effort. Products should be audited against ITSG-33 Compliance controls so that by using these systems, products are compliant reducing the burden on teams and increasing the compliance posture of the organization as a whole. 
+Establish enterprise wide systems (ex: Secret Management, Dependency Managment, etc...) in collaboration with key teams (SADE, IT-Sec) that enables developers to increase the quality of their products without expending a great deal of effort. Systems should be audited against ITSG-33 Compliance controls so that by using them, products are compliant reducing the burden on teams and increasing the compliance posture of the organization as a whole. 
 
 Demonstrating and providing a path to automate processes.
 
