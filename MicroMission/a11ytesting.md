@@ -13,3 +13,8 @@ Run an accessibility scan on those pages.
 Report the results of that scan as structured data to be consumed by other systems.
 
 At the moment we are looking at tools like Lighthouse CLI, AAAT, and the like but are open to any that will work here.
+
+Here are some more avenues of research
+
+https://medium.com/pulsar/which-accessibility-testing-tool-should-you-use-e5990e6ef0a
+https://www.previousnext.com.au/blog/automate-your-drupal-accessibility-testing-axe-and-nightwatchjs
