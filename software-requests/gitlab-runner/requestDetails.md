@@ -2,11 +2,11 @@
 https://docs.gitlab.com/runner/
 
 ## General Product Functionality
-Pulls specificed GitLab repositories for changes and runs a series of 'jobs' and commands defined in that repository within an isolated enviornment defined by the commands. 
+Pulls specified GitLab repositories for changes and runs a series of 'jobs' and commands defined in that repository within an isolated environment defined by the commands. 
 Typically those commands will consist of compile, testing, packaging and deploying stages. 
 It will send the results of those 'jobs' and commands back to GitLab.
-GitLab-Runner will also allow us to make use of GitLab's Audo DevOps allowing us to stand up fully featured CI/CD pipelines with minimal work.
-It also has powerfull integrations with Kubernetes and Docker enabling the transition to those tools in our future much simpler.
+GitLab-Runner will also allow us to make use of GitLab's Auto DevOps allowing us to stand up fully featured CI/CD pipelines with minimal work.
+It also has powerful integrations with Kubernetes and Docker enabling the transition to those tools in our future much simpler.
 
 ## Business Rational
 
@@ -34,11 +34,11 @@ These tools have been around for a very long time in ESDC and have proven to be 
 SSC has stood up an instance of GitLab Community Edition (free under the MIT license) notably known as GCCode available for all government departments to collaborate and use. 
 ESDC has started to use GCCode for many of our solutions. 
 We have been able to integrate GCCode with TFS and Jenkins, but because these tools were not designed to work together, we have encountered many problems and need a suitable solution to go forward. 
-With research and proof-of-concepts, GitLab-Runner (free under the MIT license) has proven its self to be far more effective than the current tools; even in their most optimized setup. 
+With research and proof-of-concepts, GitLab-Runner (free under the MIT license) has proven itself to be far more effective than the current tools; even in their most optimized setup. 
 GCCode is planning to allow the use of shared runners hosted by the owner of GCCode (currently SSC, expected to be PSPC in the near future) and integration of GitLab with our cloud infrastructure. 
 Having access to gitlab-runner now will help build capacity with the tool for when these features are enabled.
 
-This request is coming from the Developer Experince team tasked by senior management up to the director general level to improve the developer experince; and we believe that this tool is critial to the department in moving us forward with modern software development.
+This request is coming from the Developer Experience team tasked by senior management up to the director general level to improve the developer experience; and we believe that this tool is critical to the department in moving us forward with modern software development.
 
 ## Alternative Products
 
@@ -50,12 +50,12 @@ This request is coming from the Developer Experince team tasked by senior manage
 
 #### Cons
 - Doesn't have native integration with GCCode (GitLab)
-- Rebuilds for each enviornment
+- Rebuilds for each environment
 - Cumbersome UI with no alternative
-- Managed seperate from source
+- Managed separate from source
 - Difficult to do use for customized applications
 - Lots of restrictions to managing the release (set in place by SADE)
-- Non-issolated 'jobs'
+- Non-isolated 'jobs'
 - Limited default testing tools
 
 ### Jenkins / Maven
@@ -66,13 +66,13 @@ This request is coming from the Developer Experince team tasked by senior manage
 
 #### Cons
 - Doesn't have native integration with GCCode (GitLab)
-- Outdated when dealing with containers, doesn't provide full funtionality
+- Outdated when dealing with containers, doesn't provide full functionality
 
 ## Connections Diagram
 **Legend**  
 Black: Existing state  
 Green: New with GitLab-Runner installs  
-Blue: Potiential future state
+Blue: Potential future state
 
 ### Basic introduction diagram
 ![Connections Diagram](https://github.com/esdc-devx/DX-Notes/blob/master/software-requests/gitlab-runner/GitLab-Runner_ConnectionDiagram.PNG)
